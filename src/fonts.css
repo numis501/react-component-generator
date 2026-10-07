@@ -1,0 +1,20 @@
+@font-face {
+  font-family: Galmuri11;
+  font-weight: 400;
+  font-display: swap;
+  src: url('galmuri/dist/Galmuri11.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: Galmuri11;
+  font-weight: 700;
+  font-display: swap;
+  src: url('galmuri/dist/Galmuri11-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: GalmuriMono11;
+  font-weight: 400;
+  font-display: swap;
+  src: url('galmuri/dist/GalmuriMono11.woff2') format('woff2');
+}

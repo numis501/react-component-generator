@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  color-scheme: light;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  --desktop: #6d7cc0;
+  --desktop-dot: #5f6eb2;
+  --ink: #1d1b2e;
+}
+
+body {
+  font-family: Galmuri11, 'Malgun Gothic', ui-monospace, monospace;
+  font-size: 14px;
+  background-color: var(--desktop);
+  background-image: radial-gradient(var(--desktop-dot) 1px, transparent 1.5px);
+  background-size: 4px 4px;
+  color: var(--ink);
+  min-height: 100vh;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  -webkit-tap-highlight-color: transparent;
+}
